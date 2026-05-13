@@ -1,10 +1,10 @@
-cff-version: 1.2.0
+cff-version: 1.0.0
 message: "If you use this software, please cite it as below."
 authors:
-    - family-names: "Al-Jabri"
-    given-names: "Abdulla"
-    orcid: "https://orcid.org/0009-0003-3319-3381"
+- family-names: "Al-Jabri"
+  given-names: "Abdulla"
+  orcid: "https://orcid.org/0009-0003-3319-3381"
 title: "Zx_Mother_Function_Jabri"
 version: 1.0.0
-date-released: 2026-05-13
+date-released: 2026-05-14
 url: "https://github.com/Jabri62018/Zx_Mother_Function_Jabri"
