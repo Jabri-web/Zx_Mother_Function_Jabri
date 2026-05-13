@@ -1,17 +1,24 @@
-cff-version: 1.2.0
-message: "If you use this work, please cite it using the metadata below."
+cff-version: 1.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Zx_Mother_Function_Jabri: A Zero-Parameter Framework from Riemann Zeros"
+abstract: "Software implementing the Z(x) Mother Function. Tests the hypothesis that the first 5 Riemann zeta zeros can reproduce cosmological parameters H0, w, and G with Z_t = Z + C + A = 1."
 authors:
-    - family-names: "Al-Jabri"
-    given-names: "Abdullah"
-title: "The Mother Function Z(x) and the Derivation of the Gravitational Constant from Pure Numbers"
-doi: 10.5281/zenodo.19645066
-date-released: 2026-04-18
-url: "https://zenodo.org/records/19645066"
-repository-code: "https://github.com/jabri62018/Zx_Mother_Function_Jabri"
-license: MIT
+ - family-names: Al-Jabri
+   given-names: Abdulla M. N.
+   affiliation: "Independent Researcher, Sana'a, Yemen"
+   orcid: "https://orcid.org/0009-0003-3319-3822"
+version: v1.0
+doi: 10.5281/zenodo.20070594
+date-released: 2026-05-07
+url: "https://doi.org/10.5281/zenodo.20070594"
+repository-code: "https://github.com/Jabri62018/Zx_Mother_Function_Jabri"
+license: CC-BY-4.0
 keywords:
-    - theoretical-physics
-    - gravity
-    - mother-function
-    - zenodo
-    - yemen
+ - Riemann Hypothesis
+ - Zero-Parameter Cosmology
+ - Quantum Gravity
+ - Dark Energy
+ - Zx Mother Function
+ - Falsifiable Prediction
+ - DESI 2026
