@@ -27,10 +27,10 @@
 
 ## 🖼️ Key Figures
 
-[Z(x) Planck Movie](Zx_Plank_Movie.png)
+![Z(x) Planck Movie](Zx_Plank_Movie.png)  
 *Figure 1: All Planck epochs as coordinates on Z(x). Each dot = birth of a physical law.*
 
-[Universe now](Universe_now.png)
+![Universe now](Universe_now.png)  
 *Figure 2: H(z) from Z(x) vs DESI 2024 DR1, Planck 2018, and SH0ES 2020. No fitting.*
 
 ## ⚡ Key Results v3.0.1
@@ -69,4 +69,3 @@
   publisher    = {Zenodo},
   doi          = {10.5281/zenodo.19717561},
   url          = {https://github.com/jabri62018/Jabri-RiemannOS}
-}
