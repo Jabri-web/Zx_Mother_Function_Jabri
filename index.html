@@ -1,81 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jabri Android Projects</title>
+  <title>Projects of Abdulla Al-Jabri - مشاريع البحوث</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
       font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
       background: #0a0a0a;
       color: #fff;
-      padding: 40px 20px;
+      padding: 50px 20px;
+      text-align: center;
     }
     h1 {
-      text-align: center;
       font-size: 36px;
       color: #00ff88;
       margin-bottom: 10px;
       text-shadow: 0 0 15px #00ff88;
     }
-   .subtitle {
-      text-align: center;
-      color: #888;
+    h2 {
+      font-size: 24px;
+      color: #fff;
       margin-bottom: 40px;
+      font-weight: 400;
     }
-   .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 20px;
-      max-width: 1200px;
+    .box {
+      max-width: 700px;
       margin: 0 auto;
-    }
-   .card {
       background: #1a1a1a;
-      border: 1px solid #333;
-      border-radius: 12px;
-      padding: 25px;
-      transition: 0.3s;
-      cursor: pointer;
-    }
-   .card:hover {
-      border-color: #00ff88;
-      transform: translateY(-5px);
-      box-shadow: 0 5px 20px rgba(0, 255, 136, 0.2);
-    }
-   .card h3 {
-      color: #00ff88;
-      margin-bottom: 10px;
-      font-size: 20px;
-    }
-   .card p {
-      color: #aaa;
-      font-size: 14px;
-      line-height: 1.5;
-    }
-   .modal {
-      display: none;
-      position: fixed;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      background: rgba(0,0,0,0.8);
-      justify-content: center;
-      align-items: center;
-      z-index: 1000;
-    }
-   .modal.active { display: flex; }
-   .modal-content {
-      background: #1a1a1a;
-      padding: 30px;
-      border-radius: 12px;
       border: 1px solid #00ff88;
-      max-width: 500px;
-      text-align: center;
+      border-radius: 12px;
+      padding: 35px;
     }
-   .modal-content h2 { color: #00ff88; margin-bottom: 15px; }
-   .modal-content p { color: #aaa; margin-bottom: 20px; line-height: 1.6; }
-   .btn {
+    .box p {
+      color: #aaa;
+      font-size: 17px;
+      line-height: 1.8;
+      margin-bottom: 20px;
+    }
+    .btn {
       display: inline-block;
       padding: 12px 30px;
       background: #00ff88;
@@ -83,106 +47,24 @@
       text-decoration: none;
       border-radius: 8px;
       font-weight: bold;
-      margin: 5px;
-      border: none;
-      cursor: pointer;
-      font-size: 16px;
+      transition: 0.3s;
     }
-   .btn-close {
-      background: #333;
-      color: #fff;
+    .btn:hover {
+      box-shadow: 0 0 15px #00ff88;
+      transform: translateY(-2px);
     }
   </style>
 </head>
 <body>
-  <h1>♻️ Jabri Site - Android Projects</h1>
-  <p class="subtitle">GitHub Projects Hub - Click any project to view details</p>
-
-  <div class="grid" id="projects"></div>
-
-  <div class="modal" id="modal">
-    <div class="modal-content">
-      <h2 id="modal-title"></h2>
-      <p id="modal-desc"></p>
-      <a id="modal-link" class="btn" target="_blank">Open Project</a>
-      <button class="btn btn-close" onclick="closeModal()">Close</button>
-    </div>
+  <h1>Projects of Abdulla Al-Jabri</h1>
+  <h2>مشاريع البحوث - قواعد بيانات</h2>
+  
+  <div class="box">
+    <p>
+      This page hosts the core theory and database projects for the Zx Mother Function.<br>
+      هذه الصفحة تستضيف النظرية الأساسية ومشاريع قواعد البيانات لدالة Zx الأم.
+    </p>
+    <a href="https://github.com/Jabri-web/Zx_Mother_Function_Jabri" class="btn">Open on GitHub</a>
   </div>
-
-  <script>
-    const projects = [
-      {
-        name: "Zx_Mother_Function_Jabri",
-        desc: "Main project for Jabri Android functions and utilities library",
-        link: "https://github.com/Jabri-web/Zx_Mother_Function_Jabri"
-      },
-      {
-        name: "Android11RomPorting",
-        desc: "Porting Android 11 ROMs to various devices",
-        link: "https://github.com/Jabri-web/Android11RomPorting"
-      },
-      {
-        name: "RR-Official-devices",
-        desc: "Official supported devices for Resurrection Remix ROM",
-        link: "https://github.com/Jabri-web/RR-Official-devices"
-      },
-      {
-        name: "ApkTool",
-        desc: "Tool for decompiling and rebuilding APK files",
-        link: "https://github.com/Jabri-web/ApkTool"
-      },
-      {
-        name: "Hanadroid-android11",
-        desc: "Custom Android 11 project",
-        link: "https://github.com/Jabri-web/Hanadroid-android11"
-      },
-      {
-        name: "jabri-android",
-        desc: "Main Jabri Android project repository",
-        link: "https://github.com/Jabri-web/jabri-android"
-      },
-      {
-        name: "jabri-web.github.io",
-        desc: "This website - GitHub Pages source",
-        link: "https://github.com/Jabri-web/jabri-web.github.io"
-      },
-      {
-        name: "Android-Kernel",
-        desc: "Android kernel source and modifications",
-        link: "https://github.com/Jabri-web/Android-Kernel"
-      },
-      {
-        name: "Device-Tree",
-        desc: "Device tree files for Android ROM building",
-        link: "https://github.com/Jabri-web/Device-Tree"
-      }
-    ];
-
-    const grid = document.getElementById('projects');
-
-    projects.forEach((proj, i) => {
-      grid.innerHTML += `
-        <div class="card" onclick="openModal(${i})">
-          <h3>${proj.name}</h3>
-          <p>${proj.desc}</p>
-        </div>
-      `;
-    });
-
-    function openModal(i) {
-      document.getElementById('modal-title').textContent = projects[i].name;
-      document.getElementById('modal-desc').textContent = projects[i].desc;
-      document.getElementById('modal-link').href = projects[i].link;
-      document.getElementById('modal').classList.add('active');
-    }
-
-    function closeModal() {
-      document.getElementById('modal').classList.remove('active');
-    }
-
-    document.getElementById('modal').addEventListener('click', (e) => {
-      if(e.target.id === 'modal') closeModal();
-    });
-  </script>
 </body>
 </html>
