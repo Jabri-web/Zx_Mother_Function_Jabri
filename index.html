@@ -5,40 +5,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>الجبري أندرويد</title>
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
-      background: #0a0a0a;
-      color: #fff;
-      text-align: center;
-      padding: 40px 20px;
+    body { 
+      background:#0a0a0a; 
+      color:#fff; 
+      font-family:Arial; 
+      text-align:center; 
+      padding:40px 20px; 
     }
-    h1 {
-      color: #00ff88;
-      text-shadow: 0 0 15px #00ff88;
-      margin-bottom: 20px;
+    h1 { 
+      color:#00ff88; 
+      text-shadow:0 0 15px #00ff88; 
     }
-    .card {
-      background: #1a1a1a;
-      border: 1px solid #333;
-      border-radius: 12px;
-      padding: 25px;
-      margin: 15px auto;
-      max-width: 400px;
+    .card { 
+      background:#1a1a1a; 
+      border:1px solid #333; 
+      border-radius:12px; 
+      padding:25px; 
+      margin:15px auto; 
+      max-width:400px; 
+      transition:0.3s;
     }
-    .card a {
-      color: #00ff88;
-      text-decoration: none;
-      font-size: 20px;
+    .card:hover {
+      border-color:#00ff88;
+      box-shadow:0 0 20px rgba(0,255,136,0.3);
+    }
+    .card a { 
+      color:#00ff88; 
+      text-decoration:none; 
+      font-size:20px;
+      display:block;
+      margin-bottom:8px;
+    }
+    .card p {
+      color:#aaa;
+      font-size:14px;
     }
   </style>
 </head>
 <body>
   <h1>🔥 الجبري أندرويد</h1>
   <p>مركز مشاريعي على GitHub</p>
+  
   <div class="card">
-    <a href="https://github.com/Jabri-web/Android11RomPorting">Android11RomPorting</a>
+    <a href="https://github.com/Jabri-web/Android11RomPorting" target="_blank">Android11RomPorting</a>
     <p>بورت رومات أندرويد 11</p>
+  </div>
+  
+  <div class="card">
+    <a href="https://github.com/Jabri-web/RR-Official-devices" target="_blank">RR-Official-devices</a>
+    <p>أجهزة ريسركشن ريمكس الرسمية</p>
+  </div>
+  
+  <div class="card">
+    <a href="https://github.com/Jabri-web/ApkTool" target="_blank">ApkTool</a>
+    <p>أداة تعديل ملفات APK</p>
   </div>
 </body>
 </html>
