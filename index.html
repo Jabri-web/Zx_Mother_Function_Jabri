@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jabri Andoid 丕賱噩亘乇賷 兀賳丿乇賵賷丿</title>
+  <title>Jabri Android الجبري أندرويد</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
@@ -19,90 +19,151 @@
       margin-bottom: 10px;
       text-shadow: 0 0 15px #00ff88;
     }
-    .subtitle {
+   .subtitle {
       text-align: center;
       color: #888;
       margin-bottom: 40px;
     }
-    .grid {
+   .grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 20px;
       max-width: 1200px;
       margin: 0 auto;
     }
-    .card {
+   .card {
       background: #1a1a1a;
       border: 1px solid #333;
       border-radius: 12px;
       padding: 25px;
       transition: 0.3s;
-      text-decoration: none;
-      color: #fff;
-      display: block;
+      cursor: pointer;
     }
-    .card:hover {
+   .card:hover {
       border-color: #00ff88;
       transform: translateY(-5px);
       box-shadow: 0 5px 20px rgba(0, 255, 136, 0.2);
     }
-    .card h3 {
+   .card h3 {
       color: #00ff88;
       margin-bottom: 10px;
       font-size: 20px;
     }
-    .card p {
+   .card p {
       color: #aaa;
       font-size: 14px;
+    }
+   .modal {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0,0,0,0.8);
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+   .modal.active { display: flex; }
+   .modal-content {
+      background: #1a1a1a;
+      padding: 30px;
+      border-radius: 12px;
+      border: 1px solid #00ff88;
+      max-width: 500px;
+      text-align: center;
+    }
+   .modal-content h2 { color: #00ff88; margin-bottom: 15px; }
+   .modal-content p { color: #aaa; margin-bottom: 20px; line-height: 1.6; }
+   .btn {
+      display: inline-block;
+      padding: 12px 30px;
+      background: #00ff88;
+      color: #0a0a0a;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      margin: 5px;
+    }
+   .btn-close {
+      background: #333;
+      color: #fff;
     }
   </style>
 </head>
 <body>
-  <h1>鈾伙笍Jabri Site 丕賱噩亘乇賷 兀賳丿乇賵賷丿</h1>
-  <p class="subtitle">賲乇賰夭 丕賱賲卮丕乇賷毓 毓賱賶 GitHub</p>
-  
-  <div class="grid">
-    <a href="https://jabri-web.github.io/Zx_Mother_Function_Jabri/" class="card">
-      <h3>Zx_Mother_Function_Jabri</h3>
-      <p>Main Project丕賱賲卮乇賵毓 丕賱乇卅賷爻賶 
-    </a>
-   
-<a href="https://jabri-web.github.ioi/" class="card">
-      <h3>Jabri-web</h3>
-      <p>Main Page  丕賱乇卅賷爻賷丞  
-    </a>
+  <h1>♻️ Jabri Site الجبري أندرويد</h1>
+  <p class="subtitle">مركز المشاريع على GitHub - اضغط على أي مشروع</p>
 
-<a href="https://jabri-web/jabri62018.github.io" class="card">
-      <h3>jabri62018.github.io</h3>
-      <p>Main Page2  丕賱乇卅賷爻賷丞  
-    </a>
+  <div class="grid" id="projects"></div>
 
-
-
-    <a href="https://github.com/Jabri-web/Android11RomPorting" class="card">
-      <h3>Android11RomPorting</h3>
-      <p>亘賵乇鬲 乇賵賲丕鬲 兀賳丿乇賵賷丿 11</p>
-    </a>
-    
-    <a href="https://github.com/Jabri-web/RR-Official-devices" class="card">
-      <h3>RR-Official-devices</h3>
-      <p>兀噩賴夭丞 乇爻賲賷丞 賱賭 Resurrection Remix</p>
-    </a>
-    
-    <a href="https://github.com/Jabri-web/ApkTool" class="card">
-      <h3>ApkTool</h3>
-      <p> Modify Repo 兀丿丕丞 鬲毓丿賷賱 賲賱賮丕鬲 APK</p>
-    </a>
-    
-    <a href="https://github.com/Jabri-web/Hanadroid-android11" class="card">
-      <h3>Hanadroid-android11</h3>
-      <p>Android Project 賲卮乇賵毓 1
-    </a>
-    
-    <a href="https://github.com/Jabri-web/jabri-android" class="card">
-      <h3>jabri-android</h3>
-      <p> Jabri Project 賲卮乇賵毓 丕賱噩亘乇賷 兀賳丿乇賵賷丿</p>
-    </a>
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <h2 id="modal-title"></h2>
+      <p id="modal-desc"></p>
+      <a id="modal-link" class="btn" target="_blank">فتح المشروع</a>
+      <button class="btn btn-close" onclick="closeModal()">إغلاق</button>
+    </div>
   </div>
+
+  <script>
+    const projects = [
+      {
+        name: "Zx_Mother_Function_Jabri",
+        desc: "المشروع الرئيسي لمكتبة الدوال والوظائف الخاصة بـ Jabri Android",
+        link: "https://github.com/Jabri-web/Zx_Mother_Function_Jabri"
+      },
+      {
+        name: "Android11RomPorting",
+        desc: "بورت رومات أندرويد 11 للأجهزة المختلفة",
+        link: "https://github.com/Jabri-web/Android11RomPorting"
+      },
+      {
+        name: "RR-Official-devices",
+        desc: "أجهزة رسمية مدعومة لـ Resurrection Remix",
+        link: "https://github.com/Jabri-web/RR-Official-devices"
+      },
+      {
+        name: "ApkTool",
+        desc: "أداة تعديل ملفات APK وتفكيكها وإعادة بنائها",
+        link: "https://github.com/Jabri-web/ApkTool"
+      },
+      {
+        name: "Hanadroid-android11",
+        desc: "مشروع أندرويد 11 مخصص",
+        link: "https://github.com/Jabri-web/Hanadroid-android11"
+      },
+      {
+        name: "jabri-android",
+        desc: "مشروع الجبري أندرويد الرئيسي",
+        link: "https://github.com/Jabri-web/jabri-android"
+      }
+    ];
+
+    const grid = document.getElementById('projects');
+
+    projects.forEach((proj, i) => {
+      grid.innerHTML += `
+        <div class="card" onclick="openModal(${i})">
+          <h3>${proj.name}</h3>
+          <p>${proj.desc}</p>
+        </div>
+      `;
+    });
+
+    function openModal(i) {
+      document.getElementById('modal-title').textContent = projects[i].name;
+      document.getElementById('modal-desc').textContent = projects[i].desc;
+      document.getElementById('modal-link').href = projects[i].link;
+      document.getElementById('modal').classList.add('active');
+    }
+
+    function closeModal() {
+      document.getElementById('modal').classList.remove('active');
+    }
+
+    document.getElementById('modal').addEventListener('click', (e) => {
+      if(e.target.id === 'modal') closeModal();
+    });
+  </script>
 </body>
 </html>
