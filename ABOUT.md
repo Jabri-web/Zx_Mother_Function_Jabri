@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<img src="Jabri_photo.png" width="140" height="140" style="border-radius:50%; border:4px solid #6ae3ff; object-fit:cover;">
+<img src="Image/Jabri-photo.png" width="140" height="140" style="border-radius:50%; border:4px solid #6ae3ff; object-fit:cover;">
 
 # Eng. Abdulla Mohammed Nasser Al-Jabri
 ### م. عبدالله محمد ناصر الجبري
@@ -43,18 +43,18 @@
 ---
 
 ## ”9Ý0 Download & Reproduce v3.0.1
-- **Main Notebook**: [`Zx_Hubble.ipynb`](https://github.com/jabri62018/Jabri-RiemannOS/blob/main/Zx_Hubble.ipynb) - Reproduce H(z) + T01
-- **Planck Derivation**: [`Zx_Planck_Epoch.ipynb`](https://github.com/jabri62018/Jabri-RiemannOS/blob/main/Zx_Planck_Epoch.ipynb) - Derive 04,G,¦«,¦Á
+- **Main Notebook**: [`Python/Zx_Hubble.ipynb`](https://github.com/jabri62018/Jabri-RiemannOS/blob/main/Zx_Hubble.ipynb) - Reproduce H(z) + T01
+- **Planck Derivation**: [`Python/Zx_Planck_Epoch.ipynb`](https://github.com/jabri62018/Jabri-RiemannOS/blob/main/Zx_Planck_Epoch.ipynb) - Derive 04,G,¦«,¦Á
 - **Official Record**: [Zenodo DOI 10.5281/zenodo.19717561](https://doi.org/10.5281/zenodo.19717561)
-- **Original Paper v1.0**: [`Z_total_v1.pdf`](https://zenodo.org/records/19717561/files/Z_total_v1.pdf)
-- **Full Dataset**: [`Hz_RiemannOS_0.001.csv`](Hz_RiemannOS_0.001.csv)
+- **Original Paper v1.0**: [`Db-pdf/Z_total_v1.pdf`](https://zenodo.org/records/19717561/files/Z_total_v1.pdf)
+- **Full Dataset**: [`Data/Hz_RiemannOS_0.001.csv`](Hz_RiemannOS_0.001.csv)
 
 ## ”9õ8„1‚5 Key Figures
 
-![Z(x) Planck Movie](Zx_Plank_Movie.png)  
+![Z(x) Planck Movie](Image/Zx_Plank_Movie.png)  
 *Figure 1: All Planck epochs as coordinates on Z(x). Each dot = birth of a physical law.*
 
-![Universe now](Universe_now.png)  
+![Universe now](Image/Universe_now.png)  
 *Figure 2: H(z) from Z(x) vs DESI 2024 DR1, Planck 2018, and SH0ES 2020. No fitting.*
 
 ## 7²3 Key Results v3.0.1
@@ -75,12 +75,12 @@
 ## ”9Ü7 Repository Contents
 | File | Description |
 | --- | --- |
-| `Zx_Hubble.ipynb` | Reproduces `H(z)` from `Z(x)` + `T01` |
-| `Zx_Planck_Epoch.ipynb` | Derives Planck units `04,G,¦«,¦Á` from Z(x) |
-| `Zx_Plank_Movie.png` | Figure: All constants on Z(x) curve |
-| `Universe_now.png` | Figure: `H(z)` vs DESI 2024 + Planck + SH0ES |
-| `Z_total_v1.pdf` | Original v1.0 paper |
-| `Hz_RiemannOS_0.001.csv` | Full H(z) dataset z=0-1100 |
+| `Python/Zx_Hubble.ipynb` | Reproduces `H(z)` from `Z(x)` + `T01` |
+| `Python/Zx_Planck_Epoch.ipynb` | Derives Planck units `04,G,¦«,¦Á` from Z(x) |
+| `Image/Zx_Plank_Movie.png` | Figure: All constants on Z(x) curve |
+| `Image/Universe_now.png` | Figure: `H(z)` vs DESI 2024 + Planck + SH0ES |
+| `Db-pdf/Z_total_v1.pdf` | Original v1.0 paper |
+| `Data/Hz_RiemannOS_0.001.csv` | Full H(z) dataset z=0-1100 |
 
 ## ”9Þ8 How to Cite
 
