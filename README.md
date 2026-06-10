@@ -1,95 +1,106 @@
-# Page 3: Databases - Zx Mother Function v3.0.1
+#General README.md
 
-# Zx Mother Function v3.0.1 - PEER_REVIEW_WAR_ROOM Epilogue
-
+<meta charset="UTF-8">
 <div align="center">
 
-<img src="Jabri_photo.png" width="140" height="140" style="border-radius:50%; border:4px solid #6ae3ff; object-fit:cover;">
+<img src="Image/Jabri-photo.png" width="140" height="140" style="border-radius:50%; border:4px solid #6ae3ff; object-fit:cover;">
 
 # Eng. Abdulla Mohammed Nasser Al-Jabri
 ### م. عبدالله محمد ناصر الجبري
-
 **Independent Researcher in Mathematics & Theoretical Physics**  
-**باحث مستقل في الرياضيات والفيزياء النظرية**
-
+**باحث مستقل في الرياضيات والفيزياء النظرية**  
 **Research Focus:** Zx Function & Millennium Problems  
 **مجال البحث:** دالة Zx ومسائل الألفية
 
+[![ORCID iD](https://img.shields.io/badge/ORCID-0009--0003--3319--3822-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0003-3319-3822)
+
 [![Visit Profile](https://img.shields.io/badge/Visit-GitHub%20Profile-6ae3ff?style=for-the-badge&logo=github)](https://github.com/Jabri-web)
 
-<!-- GitHub Stats Badges -->
 [![Profile Views](https://komarev.com/ghpvc/?username=Jabri-web&color=6ae3ff&style=for-the-badge&label=Visitors)](https://github.com/Jabri-web)
 [![GitHub Stars](https://img.shields.io/github/stars/Jabri-web?color=yellow&style=for-the-badge&logo=github)](https://github.com/Jabri-web?tab=repositories)
 [![GitHub Followers](https://img.shields.io/github/followers/Jabri-web?color=green&style=for-the-badge&logo=github)](https://github.com/Jabri-web?tab=followers)
 
----
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19717561.svg)](https://doi.org/10.5281/zenodo.19717561)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Hubble.ipynb)
-
-> **Computer Conclusion:**  
-> **Input = Riemann's Numbers**  
-> **Output = Einstein's Physics**  
-> **OS = Abdulla Al-Jabri**
+### 🏆 Achievements / الإنجازات
+[![YOLO](https://img.shields.io/badge/YOLO-Explorer-00ffc8?style=for-the-badge&logo=github)](https://github.com/Jabri-web)
+[![Code Vault](https://img.shields.io/badge/Arctic%20Code%20Vault-Contributor-6ae3ff?style=for-the-badge&logo=github)](https://github.com/Jabri-web)
 
 ---
-
-## ”9Ý8 Abstract
-**Zx Mother Function** proposes a unified framework linking the Riemann Hypothesis to General Relativity through a falsifiable 1.2% deviation prediction at **2.31 TeV**, testable at future colliders like FCC-ee. This v3.0.1 adds the **PEER_REVIEW_WAR_ROOM Epilogue** with three "Al-Jabri Changed" statements.
-
-**Zero free parameters. No fitting. Only input: zeros of ¦Æ(s).**
-
+![Zx Equations](Image/Zx_Equations.png)
+![Zx Equation Figure](Image/Zx_Eq_figure.png)
 ---
+</div>
+<div align="center"
+### 📄 License / الترخيص
+**CC BY 4.0** - Free to use with attribution  
+**Jabri Identity:** `Z + C + A = 1`
 
-## ”9Ý0 Download & Reproduce v3.0.1
-- **Main Notebook**: [`Zx_Hubble.ipynb`](https://github.com/jabri62018/Jabri-RiemannOS/blob/main/Zx_Hubble.ipynb) - Reproduce H(z) + T01
-- **Planck Derivation**: [`Zx_Planck_Epoch.ipynb`](https://github.com/jabri62018/Jabri-RiemannOS/blob/main/Zx_Planck_Epoch.ipynb) - Derive 04,G,¦«,¦Á
-- **Official Record**: [Zenodo DOI 10.5281/zenodo.19717561](https://doi.org/10.5281/zenodo.19717561)
-- **Original Paper v1.0**: [`Z_total_v1.pdf`](https://zenodo.org/records/19717561/files/Z_total_v1.pdf)
-- **Full Dataset**: [`Hz_RiemannOS_0.001.csv`](Hz_RiemannOS_0.001.csv)
 
-## ”9õ8„1‚5 Key Figures
+#_____________________________
+#_____________________________
+#_____________________________
 
-![Z(x) Planck Movie](Zx_Plank_Movie.png)  
-*Figure 1: All Planck epochs as coordinates on Z(x). Each dot = birth of a physical law.*
 
-![Universe now](Universe_now.png)  
-*Figure 2: H(z) from Z(x) vs DESI 2024 DR1, Planck 2018, and SH0ES 2020. No fitting.*
+## 🔗 Dbase: All Research Links & DOIs
+قاعدة بيانات جميع مشاريع Zx + الروابط + الـ DOI
 
-## 7²3 Key Results v3.0.1
+<details>
 
-1. **CMB**: `H(1100) = 1.387e6 km/s/Mpc` ¡ú matches Planck 2018: 67.36 ¡À 0.54
-2. **Local**: `H0 = 69.56 km/s/Mpc` at `z=0` ¡ú explains SH0ES 73.04 via T_01 flow  
-3. **DESI 2024 DR1**: All 6 BAO points `z=0.51` to `z=2.33` within 1¦Ò
-4. **Falsifiable**: `w_de = -1.03` for CMB-S4, `¦¤G/G = 8%` at 41.9 GeV for LHC
+  
+<summary><b>🚀 Press here / اضغط هنا لعرض كل الروابط 📚</b></summary>
 
-## ”9ç4 How Z(x) Solves Hubble Tension
+<br>
 
-**Conclusion**: There was no tension. G was running and we assumed it constant.
+| # | المشروع / Project | GitHub Pages | DOI Zenodo |
+| --- | --- | --- | --- |
+| 1 | **Jabri6218.github.io** | [Pages](https://jabri-web.github.io/jabri62018.github.io/) | [20403864](https://doi.org/10.5281/zenodo.20403864) |
+| 2 | **Zx_RieOS_v1.2** | [Pages](https://jabri-web.github.io/Zx_RieOS_v1.2/) | [20100622](https://doi.org/10.5281/zenodo.20100622) |
+| 3 | **Zx_Mother_Function_Jabri** | [Pages](https://Jabri-web.github.io/Zx_Mother_Function_Jabri/) | - |
+| 4 | **Jabri-web.github.io** | [Pages](https://Jabri-web.github.io/) | [20499365](https://doi.org/10.5281/zenodo.20499365) / [20404167](https://doi.org/10.5281/zenodo.20404167) |
+| 5 | **Jabri_Nobble** | [Pages](https://jabri-web.github.io/Jabri_Nobble/) | [20148770](https://doi.org/10.5281/zenodo.20148770) |
+| 5.1 | └─ Jabri_Riemann | - | [20139904](https://doi.org/10.5281/zenodo.20139904) / [20145337](https://doi.org/10.5281/zenodo.20145337) |
+| 5.2 | └─ Jabri_np | - | [20145279](https://doi.org/10.5281/zenodo.20145279) |
+| 5.3 | └─ Jabri_gab | - | [20148344](https://doi.org/10.5281/zenodo.20148344) |
+| 5.4 | └─ Jabri_Navier | - | [20149618](https://doi.org/10.5281/zenodo.20149618) |
+| 5.7 | └─ Jabri_Identity | - | [20114317](https://doi.org/10.5281/zenodo.20114317) |
+| 6 | **Jabri_lab** | [Pages](https://jabri-web.github.io/jabri_lab/) | قيد النشر |
+| 7 | **Zx_RieOS_v1.1** | [Pages](https://Jabri-web.github.io/Zx_RieOS_v1.1/) | [19981688](https://doi.org/10.5281/zenodo.19981688) / [20070594](https://doi.org/10.5281/zenodo.20070594) |
+| 8 | **Jabri_RiemannOS** | [Pages](https://jabri-web.github.io/Jabri-RiemannOS/) | - |
+| 9 | **Jabri_Checkout** | [Pages](https://Jabri-web.github.io/Jabri_Checkout/) | [20513840](https://doi.org/10.5281/zenodo.20513840) |
+| 10 | **Jabri-web** | [Pages](https://jabri-web.github.io/Jabri-web/) | [20499365](https://doi.org/10.5281/zenodo.20499365) |
 
-1. **Running Gravity**: Z(x) makes Newton's G energy-dependent via `G ¡Ø 1/Z'`
-2. **Phase Transition**: T01 at t6¯3=65.11 generates dynamical ¦« naturally
-3. **Unified H(z)**: CMB z=1100 gives H6®8=67.4, Local z=0 gives H6®8=73.0
+> **Verified 2026-06-09 by Jabri**: كل الروابط 1-10 شغالة. DOI كله `10.5281`. لا تعديل بعد اليوم.
 
-## ”9Ü7 Repository Contents
-| File | Description |
-| --- | --- |
-| `Zx_Hubble.ipynb` | Reproduces `H(z)` from `Z(x)` + `T01` |
-| `Zx_Planck_Epoch.ipynb` | Derives Planck units `04,G,¦«,¦Á` from Z(x) |
-| `Zx_Plank_Movie.png` | Figure: All constants on Z(x) curve |
-| `Universe_now.png` | Figure: `H(z)` vs DESI 2024 + Planck + SH0ES |
-| `Z_total_v1.pdf` | Original v1.0 paper |
-| `Hz_RiemannOS_0.001.csv` | Full H(z) dataset z=0-1100 |
+</details>
 
-## ”9Þ8 How to Cite
+## 📘 اضغط -Press-About This Repo
+<div align="center">
+<a href="./ABOUT.md">
+  <img src="https://img.shields.io/badge/Press%20about%20this%20Repo...-%D8%AD%D9%88%D9%84%20%D9%87%D8%B0%D9%87%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A8%D9%88-6ae3ff?style=for-the-badge&logo=book&logoColor=white"/>
+</a>
+  
+  #__________________________
+  #__________________________
+  #__________________________
+</div>
+---
+## 📊 GitHub Stats
+<div align="center">
+<img src="https://streak-stats.demolab.com?user=Jabri-web&theme=radical&hide_border=true" alt="GitHub Streak"/>
+<br><br>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jabri-web&layout=compact&theme=radical&hide_border=true" alt="Top Languages"/>
+</div>
 
-```bibtex
-@software{Jabri_ZxMotherFunction_2026,
-  author       = {Jabri, A.J.},
-  title        = {Zx Mother Function v3.0.1: PEER_REVIEW_WAR_ROOM Epilogue},
-  version      = {3.0.1},
-  year         = {2026},
-  publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.19717561},
-  url          = {https://github.com/jabri62018/Jabri-RiemannOS}
+## 🤝 Partnerships & Contact
+مهتم بشراكة بحثية أو إعلان مدفوع؟ تواصل معي:
+
+### 🔗 Contact
+- **ORCID:** [0009-0003-3319-3822](https://orcid.org/0009-0003-3319-3822)  
+- **Email:** [jabri.2018@gmail.com](mailto:jabri.2018@gmail.com)  
+- **Website:** [Jabri-web.github.io](https://Jabri-web.github.io)
+- **GitHub:** [View All Repositories](https://github.com/Jabri-web?tab=repositories)  
+- **Sponsor:** [Become a sponsor](https://github.com/sponsors/Jabri-web)
+
+<div align="center">
+<i>"From Riemann zeros to the structure of the universe"</i>
+</div>
+</div>
