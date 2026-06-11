@@ -14,16 +14,16 @@
 **Research Focus:** Zx Function & Millennium Problems  
 **مجال البحث:** دالة Zx ومسائل الألفية
 
-[[Visit Profile](https://img.shields.io/badge/Visit-GitHub%20Profile-6ae3ff?style=for-the-badge&logo=github)](https://github.com/Jabri-web)
-[[Profile Views](https://komarev.com/ghpvc/?username=Jabri-web&color=6ae3ff&style=for-the-badge&label=Visitors)](https://github.com/Jabri-web)
-[[GitHub Stars](https://img.shields.io/github/stars/jabri62018/Jabri-RiemannOS?color=yellow&style=for-the-badge&logo=github)](https://github.com/jabri62018/Jabri-RiemannOS)
-[[GitHub Followers](https://img.shields.io/github/followers/Jabri-web?color=green&style=for-the-badge&logo=github)](https://github.com/Jabri-web?tab=followers)
+[![Visit Profile](https://img.shields.io/badge/Visit-GitHub%20Profile-6ae3ff?style=for-the-badge&logo=github)](https://github.com/Jabri-web)
+[![Profile Views](https://komarev.com/ghpvc/?username=Jabri-web&color=6ae3ff&style=for-the-badge&label=Visitors)](https://github.com/Jabri-web)
+[![GitHub Stars](https://img.shields.io/github/stars/jabri62018/Jabri-RiemannOS?color=yellow&style=for-the-badge&logo=github)](https://github.com/jabri62018/Jabri-RiemannOS)
+[![GitHub Followers](https://img.shields.io/github/followers/Jabri-web?color=green&style=for-the-badge&logo=github)](https://github.com/Jabri-web?tab=followers)
 
 ---
 
-[[DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19717561.svg)](https://doi.org/10.5281/zenodo.19717561)
-[[License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[[Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Hubble.ipynb)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19717561.svg)](https://doi.org/10.5281/zenodo.19717561)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Hubble.ipynb)
 
 > **Computer Conclusion:**  
 > **Input = Riemann's Numbers**  
@@ -33,9 +33,7 @@
 ---
 
 ## 🔬 Abstract
-
-**Zx Mother Function** proposes a unified framework linking the Riemann Hypothesis to General Relativity through a falsifiable 1.2% deviation prediction at **2.31 TeV**, testable at future colliders like FCC-ee. This v3.0.1 adds the **PEER_REVIEW_WAR_ROOM Epilogue** with three "Al-Jabri Changed" statements.
-
+**Zx Mother Function** proposes a unified framework linking the Riemann Hypothesis to General Relativity through a falsifiable 1.2% deviation prediction at **2.31 TeV**, testable at future colliders like FCC-ee. This v3.0.1 adds the **PEER_REVIEW_WAR_ROOM Epilogue** with three "Al-Jabri Changed" statements.  
 **Zero free parameters. No fitting. Only input: zeros of ζ(s).**
 
 ---
@@ -45,7 +43,7 @@
 - **Planck Derivation**: [`Python/Zx_Planck_Epoch.ipynb`](https://github.com/jabri62018/Jabri-RiemannOS/blob/main/Zx_Planck_Epoch.ipynb) - Derive ħ,G,Λ,α
 - **Official Record**: [Zenodo DOI 10.5281/zenodo.19717561](https://doi.org/10.5281/zenodo.19717561)
 - **Original Paper v1.0**: [`Fb-pdf/Z_total_v1.pdf`](https://zenodo.org/records/19717561/files/Z_total_v1.pdf)
-- **Full Dataset**: [`Data/Hz_RiemannOS_0.001.csv`](Hz_RiemannOS_0.001.csv)
+- **Full Dataset**: [`Data/Hz_RiemannOS_0.001.csv`](Data/Hz_RiemannOS_0.001.csv)
 
 ## 📊 Key Figures
 ![Z(x) Planck Movie](Image/Zx_Plank_Movie.png)  
@@ -62,7 +60,6 @@
 
 ## ⚡ How Z(x) Solves Hubble Tension
 **Conclusion**: There was no tension. G was running and we assumed it constant.
-
 1. **Running Gravity**: Z(x) makes Newton's G energy-dependent via `G ∝ 1/Z'`
 2. **Phase Transition**: T01 at t₀=65.11 generates dynamical Λ naturally
 3. **Unified H(z)**: CMB z=1100 gives H₀=67.4, Local z=0 gives H₀=73.0
@@ -70,11 +67,11 @@
 ## 📁 Repository Contents
 | File | Description |
 | --- | --- |
-| `Pytjon/Zx_Hubble.ipynb` | Reproduces `H(z)` from `Z(x)` + `T01` |
+| `Python/Zx_Hubble.ipynb` | Reproduces `H(z)` from `Z(x)` + `T01` |
 | `Python/Zx_Planck_Epoch.ipynb` | Derives Planck units `ħ,G,Λ,α` from Z(x) |
 | `Image/Zx_Plank_Movie.png` | Figure: All constants on Z(x) curve |
 | `Image/Universe_now.png` | Figure: `H(z)` vs DESI 2024 + Planck + SH0ES |
-| `Db-pdf/Z_total_v1.pdf` | Original v1.0 paper |
+| `Fb-pdf/Z_total_v1.pdf` | Original v1.0 paper |
 | `Data/Hz_RiemannOS_0.001.csv` | Full H(z) dataset z=0-1100 |
 
 ## 📚 How to Cite
