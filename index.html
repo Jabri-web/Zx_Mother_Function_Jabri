@@ -3,99 +3,125 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>م. بليغ عبدالله الجبري</title>
-<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+<title>بوابة عبدالله عبدالله - P4 Gateway</title>
 <style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
 body {
-  font-family: "Tajawal", Arial, sans-serif;
-  background: #0a0a0f;
-  color: #e8e8f0;
-  text-align: center;
-  padding: 40px 20px;
-  margin: 0;
+    background: #0a0a0a;
+    color: #fff;
+    font-family: 'Cairo', Tahoma, Arial;
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh;
 }
-.profile-img {
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
-  border: 4px solid #6ae3ff;
-  object-fit: cover;
-  margin-bottom: 15px;
+.logo {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 30px 0;
+    letter-spacing: 3px;
 }
-h2 {
-  color: #6ae3ff;
-  margin: 10px 0 30px 0;
-  font-size: 1.4rem;
+.logo span { color: #ff3333; }
+h1 { 
+    font-size: 24px; 
+    margin-bottom: 10px;
+    color: #ccc;
+}
+.current {
+    background: #ff3333;
+    border: 2px solid #ff6666;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 30px auto;
+    max-width: 400px;
+    animation: pulse 2s infinite;
+}
+@keyframes pulse {
+    0%, 100% { box-shadow: 0 0 20px #ff3333; }
+    50% { box-shadow: 0 0 40px #ff6666; }
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    max-width: 800px;
+    margin: 40px auto;
 }
 .btn {
-  display: block;
-  width: 80%;
-  max-width: 400px;
-  margin: 12px auto;
-  padding: 14px 20px;
-  background: #14141f;
-  color: #e8e8f0;
-  text-decoration: none;
-  border: 1px solid #1f1f2e;
-  border-radius: 10px;
-  font-size: 16px;
-  font-weight: 600;
-  transition: 0.2s;
-  line-height: 1.4;
+    background: #1a1a1a;
+    border: 2px solid #333;
+    color: #fff;
+    padding: 25px 15px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+    display: block;
 }
 .btn:hover {
-  background: #1f1f2e;
-  border-color: #6ae3ff;
-  color: #6ae3ff;
+    background: #2a2a2a;
+    border-color: #ff3333;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(255,51,51,0.3);
 }
-.btn.exit {
-  background: #2a0f0f;
-  border-color: #d62828;
-  color: #ff6b6b;
+.section-title {
+    font-size: 22px;
+    margin: 50px 0 20px;
+    color: #ff3333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    display: inline-block;
 }
-.btn.exit:hover {
-  background: #d62828;
-  color: #fff;
+.datetime {
+    margin-top: 50px;
+    color: #666;
+    font-size: 14px;
 }
-.en-text {font-size: 16px; display: block;}
-.ar-text {font-size: 0.95rem; opacity: 0.8; margin-top: 3px; display: block;}
 </style>
 </head>
 <body>
 
-<img src="Image/Baleegh.png" alt="Baleegh" class="profile-img">
-<h2>م. بليغ عبدالله الجبري</h2>
+<div class="logo">Z<span>+</span>C<span>+</span>A<span>=</span>1</div>
+<h1>بوابة عبدالله عبدالله الرئيسية</h1>
 
-<!-- زر المحتوى مصلح: يفتح research.html -->
-<a class="btn" href="Yemen-library.html" target="_blank">
-  <span class="en-text">Contents</span>
-  <span class="ar-text">المحتوى</span>
-</a>
+<div class="current">
+    الصفحة الحالية<br>
+    <b>جاري الكشف عن الشفرة...</b>
+</div>
 
-<a class="btn" href="https://jabri-web.github.io/jabri_lab/" target="_blank">
-  <span class="en-text">Jabri_lab</span>
-  <span class="ar-text">المعمل</span>
-</a>
+<h2 class="section-title">المشاريع الأساسية 1→10</h2>
+<div class="grid">
+    <a href="Page1.html" class="btn">1. سندباد اليمن</a>
+    <a href="Page2.html" class="btn">2. طائر اليمن</a>
+    <a href="Page3.html" class="btn">3. عنكبوت اليمن</a>
+    <a href="Page4.html" class="btn">4. مكتبي وبحوثي</a>
+    <a href="Page5.html" class="btn">5. مشروع 5</a>
+    <a href="Page6.html" class="btn">6. مشروع 6</a>
+    <a href="Page7.html" class="btn">7. مشروع 7</a>
+    <a href="Page8.html" class="btn">8. مشروع 8</a>
+    <a href="Page9.html" class="btn">9. مشروع 9</a>
+    <a href="Page10.html" class="btn">10. مشروع 10</a>
+</div>
 
-<a class="btn" href="https://jabri-web.github.io/Jabri_Nobble/" target="_blank">
-  <span class="en-text">Jabri_Nobble</span>
-  <span class="ar-text">بحوث الجوائز</span>
-</a>
+<h2 class="section-title">مكتبي وبحوثي</h2>
+<div class="grid">
+    <a href="Page4.html" class="btn">المكتب الرئيسي</a>
+    <a href="Page4.html#sandas" class="btn">سندس النظرية</a>
+    <a href="Page4.html#library" class="btn">المكتبة اليمنية</a>
+    <a href="Page1.html" class="btn">سندباد اليمن</a>
+</div>
 
-<a class="btn" href="research.html" target="_blank">
-  <span class="en-text">Researches</span>
-  <span class="ar-text">البحوث الموثقة</span>
-</a>
+<div class="datetime" id="dt"></div>
 
-<a class="btn" href="yemen-photo.html">
-  <span class="en-text">Yemen-photo</span>
-  <span class="ar-text">السياحة في اليمن</span>
-</a>
-
-<a class="btn exit" href="https://jabri-web.github.io/">
-  <span class="en-text">Exit</span>
-  <span class="ar-text">خروج</span>
-</a>
+<script>
+function updateTime() {
+    const now = new Date();
+    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit' };
+    document.getElementById('dt').innerHTML = now.toLocaleDateString('ar-EG', options);
+}
+updateTime();
+setInterval(updateTime, 60000);
+</script>
 
 </body>
 </html>
